@@ -1,0 +1,166 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Vivo 220",
+      "color": "black",
+      "price": 12000,
+      "category": "mobile",
+      "brand": "Vivo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+    },
+    {
+      "id": 2,
+      "name": "I-phone 15",
+      "color": "white",
+      "price": 100000,
+      "category": "mobile",
+      "brand": "Apple",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+    },
+    {
+      "id": 3,
+      "name": "Nokia 220",
+      "color": "red",
+      "price": 1500,
+      "category": "mobile",
+      "brand": "Nokia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+    },
+    {
+      "id": 4,
+      "name": "Nokia 220",
+      "color": "red",
+      "price": 1500,
+      "category": "mobile",
+      "brand": "Nokia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+    },
+    {
+      "id": 5,
+      "name": "Samsung 220",
+      "color": "black",
+      "price": 20000,
+      "category": "mobile",
+      "brand": "samsung",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+      "id": 6,
+      "name": "Bag",
+      "color": "red",
+      "price": 1500,
+      "category": "Room item",
+      "brand": "Ic2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+      "id": 7,
+      "name": "Dell Laptop",
+      "color": "red",
+      "price": 80000,
+      "category": "laptop",
+      "brand": "Dell",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+      "id": 8,
+      "name": "Nokia 1100",
+      "color": "blue",
+      "price": 1500,
+      "category": "mobile",
+      "brand": "Nokia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+      "id": 9,
+      "name": "Hp laptop",
+      "color": "black",
+      "price": 75000,
+      "category": "laptop",
+      "brand": "HP",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+    "id": 10,
+    "name": "Vivo 220",
+    "color": "black",
+    "price": 12000,
+    "category": "mobile",
+    "brand": "Vivo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+    "id": 11,
+    "name": "I-phone 15",
+    "color": "white",
+    "price": 100000,
+    "category": "mobile",
+    "brand": "Apple",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+    "id": 12,
+    "name": "Nokia 220",
+    "color": "red",
+    "price": 1500,
+    "category": "mobile",
+    "brand": "Nokia",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+    "id": 13,
+    "name": "Nokia 220",
+    "color": "red",
+    "price": 1500,
+    "category": "mobile",
+    "brand": "Nokia",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+  },
+  {
+    "id": 14,
+    "name": "Samsung 220",
+    "color": "black",
+    "price": 20000,
+    "category": "mobile",
+    "brand": "samsung",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+},
+{
+    "id": 15,
+    "name": "Bag",
+    "color": "red",
+    "price": 1500,
+    "category": "Room item",
+    "brand": "Ic2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+},
+{
+    "id": 16,
+    "name": "Dell Laptop",
+    "color": "red",
+    "price": 80000,
+    "category": "laptop",
+    "brand": "Dell",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+},
+{
+    "id": 17,
+    "name": "Nokia 1100",
+    "color": "blue",
+    "price": 1500,
+    "category": "mobile",
+    "brand": "Nokia",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+},
+{
+    "id": 18,
+    "name": "Hp laptop",
+    "color": "black",
+    "price": 75000,
+    "category": "laptop",
+    "brand": "HP",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDtUn1tvooOYs1yjnZ5HGwKSnOkvF2C2TCsO1Z1Sm7A&s"
+}
+  ]
+}
