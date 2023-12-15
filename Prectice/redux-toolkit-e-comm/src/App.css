@@ -1,0 +1,420 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* dashboard Css */
+
+/* navbar style */
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #696969; 
+  position: fixed;
+  overflow: hidden;
+  background-color: #696969;
+  position: fixed;
+  top: 0;
+  width: 100%; /* Full width */
+  margin-bottom: 20px;
+}
+
+.menu{
+  float: left;
+}
+
+.nav-ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-ul li a:hover {
+  background-color: #555; /* Change this color for the hover effect */
+  transition: background-color 0.3s ease; /* Add a transition for a smoother effect */
+  border-radius: 5px; /* Add rounded corners for a nicer look */
+  color: yellow; /* Change text color on hover */
+}
+
+.nav-right {
+  float: right;
+}
+
+/* .logo {
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 9px;
+  margin-left: 20px;
+} */
+
+.logout-nav {
+  margin-left: 640px;
+  /* float: right; */
+}
+
+.logo-nav {
+  font-size: 28px;
+  color: yellow;
+}
+
+/* Footer part */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #696969; /* Background color of the footer */
+  color: white; /* Text color */
+  text-align: center;
+  padding: 7px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footer h3 {
+  margin: 0; /* Remove default margin for h3 element */
+}
+
+/* Sign Up page */
+
+.input-form-data, .product {
+  max-width: 348px;
+    margin: 59px auto;
+    padding: 47px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 96px;
+}
+
+.signup-heading {
+  text-align: center;
+  color: #333;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.2);
+}
+
+/* Add some style to the submit button */
+.input-form-data button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.input-form-data button:hover {
+  background-color: #45a049;
+}
+
+.Sign-up-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px; /* Increase margin for better spacing */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.Sign-up-btn:hover {
+  background-color: #45a049;
+}
+
+
+/* Login page css */
+
+.login {
+  width: 325px;
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-align: center;
+  max-width: 325px;
+  /* margin: 26px auto; */
+  padding: 67px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 125px;
+}
+
+.login h1 {
+  color: #333;
+}
+
+.inputBox {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Sign-up-btn:hover {
+  background-color: #45a049;
+}
+
+/* Add some additional styling for better aesthetics */
+body {
+  background-color: #e6e6e6;
+  font-family: 'Arial', sans-serif;
+}
+
+.invalid-input{
+  color: red;
+  margin-top: -6px;
+  display: block;
+  margin-left: 3px;
+}
+
+
+/* product list css */
+/* 
+.products-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.products-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.products-list ul{
+  margin: 0;
+}
+
+.search-product {
+  margin-top: 33px;
+  padding: 3px;
+  width: 300px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  font-size: 22px;
+  margin-left: 9px;
+} */
+
+
+/* Add this CSS in your stylesheet or in a style tag in your component */
+
+.list-heading {
+  margin-top: 86px;
+}
+
+.pr-heading {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.search-product {
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  margin-top: 75px;
+  margin-left: 4px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-product-s{
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  margin-top: 75px;
+  margin-left: 145px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
+
+.products-list {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -54px;
+}
+
+.products-list h1 {
+  font-size: 39px;
+  color: #333;
+  margin-bottom: 36px;
+  margin-top: 0px;
+  align-items: center;
+
+}
+
+.products-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products-list li {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+}
+
+.products-list ul:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.products-list ul:not(:first-child) {
+  margin-top: 8px;
+}
+
+.products-list button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.products-list button:hover {
+  background-color: #cc0000;
+}
+
+.products-list a {
+  text-decoration: none;
+  color: black;
+  margin-left: 14px;
+}
+
+.products-list a:hover {
+  text-decoration: underline;
+}
+
+.products-list span a {
+  color: blue;
+}
+
+.products-list li span {
+  color: blue;
+}
+
+/* Profile page */
+
+/* Style for the container */
+.seller-dtls {
+  max-width: 419px;
+  margin: 137px auto;
+  padding: 106px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the heading */
+.seller-dtls h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  margin-left: 13px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style for the details list */
+.details {
+  list-style: none;
+  padding: 37px;
+  margin: 3px;
+  font-size: 35%;
+  margin-left: -22px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+
+
+}
+
+/* Style for each list item */
+.details li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-img {
+  position: absolute;
+  width: 13%;
+  left: 51%;
+  top: 44%;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/*  add css for comfirm message */

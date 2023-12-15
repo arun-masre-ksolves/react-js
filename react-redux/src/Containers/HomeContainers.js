@@ -4,7 +4,7 @@ import Home from '../Components/Home';
 function HomeContainers() {
   return (
     <div>
-      <Home/>
+      <Home/> 
     </div>
   );
 }

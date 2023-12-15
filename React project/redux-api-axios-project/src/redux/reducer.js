@@ -1,4 +1,4 @@
-import { ADD_TO_CART, EMPTY_CART } from "./constant";
+import { ADD_TO_CART, EMPTY_CART, REMOVE_FROM_CART } from "./constant";
 
 export const cartData = (data = [], action) => {
 
@@ -7,7 +7,7 @@ export const cartData = (data = [], action) => {
       console.log("ADD_TO_CART condition", action);
       return [action.data, ...data];
 
-    case "REMOVE_FROM_CART":
+    case REMOVE_FROM_CART:
       console.log("REMOVE_FROM_CART condition", action);
       const indexToRemove = data.findIndex((item) => item.id === action.data);
 

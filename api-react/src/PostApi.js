@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 
 function PostApi() {
@@ -6,6 +6,9 @@ function PostApi() {
    const [username, setUsername] = useState("");
    const [email, setEmail] = useState("");
 
+   useEffect(()=>{
+
+  
    function saveData() {
     // console.warn({name,salary,age});
     let data = {name,username,email};
@@ -24,6 +27,8 @@ function PostApi() {
         })
     })
    }
+
+  },[])
 
     return (
       <div><hr />
